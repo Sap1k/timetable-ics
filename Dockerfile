@@ -8,10 +8,13 @@ ENV PYTHONUNBUFFERED=1
 # Set working directory
 WORKDIR /app
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y \
-    build-essential \
-    && apt-get clean
+RUN apk add --no-cache \
+    build-base \
+    libffi-dev \
+    python3-dev \
+    musl-dev \
+    gcc \
+    openblas-dev
 
 # Install Python dependencies
 COPY requirements.txt .
