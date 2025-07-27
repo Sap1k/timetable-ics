@@ -20,7 +20,7 @@ translations = {
     },
     "cz": {
         "title": "📅 Převod rozvrhu z InSISu na ICS",
-        "description": "Nahraj svůj soubor `.xlsx` s rozvrhem a stáhni si kalendář, který si můžeš importovat do Google Kalendáře, Outlooku nebo Apple Kalendáře.",
+        "description": "Nahraj svůj soubor `.xlsx` s rozvrhem a stáhni si kalendář, který si můžeš importovat do svojí oblíbené aplikace kalendáře.",
         "help": "Data najdeš v InSISu \n* Moje studium -> Zápisy předmětů -> Zobrazení rozvrhů. \n* Typ seznamu: konkrétní ve dnech, formát: seznam rozvrhových akcí, od/do pro celý semestr. \n* Tlačítko \"Export do Excelu\" stáhne požadovaný soubor.",
         "upload": "Nahraj Excel soubor (.xlsx)",
         "timezone": "Vyber časové pásmo",
